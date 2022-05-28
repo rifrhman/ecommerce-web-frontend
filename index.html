@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-Commerce Iceteasweeet</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <section id="header">
-      <a href="#"><img src="img/logo.png" class="logo" alt="logos" /></a>
+      <a href="#"><img src="img/fix-logo.png" class="logo" alt="logos" /></a>
 
       <div>
         <ul id="navbar">
@@ -20,12 +23,23 @@
           <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li>
+          <li id="close-cart">
             <a href="cart.html">
               <img src="img/shop.png" alt="shops" />
             </a>
           </li>
+          <a href="#" id="close-navbar-responsive"
+            ><i class="fa fa-times"></i
+          ></a>
         </ul>
+      </div>
+      <div id="responsive-navbar">
+        <a href="cart.html">
+          <img src="img/shop.png" alt="shops" />
+        </a>
+        <a href="#">
+          <i id="bar" class="fa fa-outdent"></i>
+        </a>
       </div>
     </section>
 
@@ -60,7 +74,7 @@
       </div>
       <div class="features-box">
         <img src="img/features/f6.png" alt="featuresSix" />
-        <h6>Support Center</h6>
+        <h6>Support</h6>
       </div>
     </section>
 
@@ -376,14 +390,14 @@
         <p>Get E-mail updates for our latest <span>special offers</span></p>
       </div>
       <div class="form-mail">
-        <input type="text" placeholder="E-mail Address">
+        <input type="text" placeholder="E-mail Address" />
         <button class="normal">Sign Up</button>
       </div>
     </section>
 
     <footer class="section-p1">
       <div class="column-footer">
-        <img class="logo-footer" src="img/logo.png" alt="logo-footer">
+        <img class="logo-footer" src="img/fix-logo.png" alt="logo-footer" />
         <h4>Contact</h4>
         <p><strong>Address:</strong> Bogor, West Java, Indonesia</p>
         <p><strong>Phone:</strong> +62 251-222-444 / (+62) 812-0909-7722</p>
@@ -422,15 +436,17 @@
         <h4>Install Apps</h4>
         <p>Available on App Store & Google Play Store</p>
         <div class="row-app">
-          <img src="img/pay/app.jpg" alt="appstore">
-          <img src="img/pay/play.jpg" alt="playstore">
+          <img src="img/pay/app.jpg" alt="appstore" />
+          <img src="img/pay/play.jpg" alt="playstore" />
         </div>
         <p>Secured Payment Gateways</p>
-        <img src="img/pay/pay.png" alt="paying">
+        <img src="img/pay/pay.png" alt="paying" />
       </div>
 
       <div class="copyright">
-        <p>&copy; 2022, ShopFun Corp - E-Commerce Website Built by @Iceteasweeet</p>
+        <p>
+          &copy; 2022, ShopFun Corp - E-Commerce Website Built by @Iceteasweeet
+        </p>
       </div>
     </footer>
 
